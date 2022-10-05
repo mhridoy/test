@@ -5,7 +5,7 @@ import streamlit as st
 import nmap
 
 #scanner = ""
-#scanner = nmap.PortScanner()
+scanner = nmap.PortScanner()
 
 ip_addr = st.text_input("Please enter the IP address you want to scan: ")
 
